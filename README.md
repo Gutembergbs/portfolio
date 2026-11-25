@@ -12,8 +12,8 @@ O site é estático e publicado pelo GitHub Pages:
 - Repositório: <https://github.com/Gutembergbs/portfolio>
 
 O workflow em `.github/workflows/deploy-pages.yml` publica `index.html` e
-`styles.css` após cada push para `main` e habilita o GitHub Pages
-automaticamente.
+`styles.css` após cada push para `main`. No primeiro uso, configure **Settings
+→ Pages → Source: GitHub Actions** no repositório.
 
 ## Conteúdo
 
